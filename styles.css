@@ -1,6 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap');
+/* import the fonts using @import, get the link from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap'); 
 
-* {
+* { /* add this to the start of every project */
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -96,29 +97,31 @@ h2 {
     margin-bottom: 24px;
 }
 
+/* use good class names */
+
 .section__description {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.about__img--wrapper {
+.about__img--wrapper { /* img wrapper is 40% of its section */
     width: 40%;
     padding: 0 24px;
 }
 
 img {
-    width: 100%;
+    width: 100%; /* the img is 100% of its wrapper space */
 }
 
-.section__description--wrapper {
+.section__description--wrapper { /* the description is 60% (the rest of the space in the section) */
     width: 60%;
     padding: 0 24px;
 }
 
 .section__description--para {
     font-size: 20px;
-    line-height: 1.5;
+    line-height: 1.5; /* line spacing */
     margin-bottom: 24px;
 }
 
@@ -128,7 +131,10 @@ DISCORD
 
 */
 
-#discord {
+
+/* we have reusable code and the discord page runs off of previous classes and styling */
+
+#discord { 
     background-color: #cefeff;
 }
 
